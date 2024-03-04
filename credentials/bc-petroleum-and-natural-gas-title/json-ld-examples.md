@@ -6,6 +6,7 @@ Copy the file content and paste on the [univerifier](https://univerifier.io/) th
 A VC service is hosted at `https://ipsweb.vc.opsec.id/titles/{titleNo}`.
 To request a VC of an existing title, append the title No you are interested in.
 Visit [https://a100.gov.bc.ca/pub/ipsweb](https://a100.gov.bc.ca/pub/ipsweb) to browse available titles.
+* *Due to the inconsistent formatting coming from the tenure text file blobs of the IPSWEB tool, some credentials might not be accurately represented*
 
 ### To inspect dids
 [Click here](https://dev.uniresolver.io/#did:web:ipsweb.vc.opsec.id) and click resolve to resolve the web did
