@@ -10,7 +10,7 @@ flowchart RL
     VERIFIER[verifier]
     DATABASE[database]
     TRACE -- Query TitleDoc --> IPSWEB
-    TRACE -- Issue TitleVC --> TRACTION
+    TRACE -- Sign TitleVC --> TRACTION
     TRACE -- Store TitleVC  --> DATABASE
     VERIFIER -- Verify issued TitleVC  --> TRACE
 ```
@@ -144,7 +144,7 @@ TRACT 1
 ```
 ```json
 {
-    "type": ["BCTenureTract"],
+    "type": "BCTenureTract",
     "locations": [
         "NTS 094-B-09 BLK F UNITS 91",
         "NTS 094-B-09 BLK G UNITS 100",
