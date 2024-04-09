@@ -14,19 +14,19 @@ flowchart RL
     TRACE -- Store TitleVC  --> DATABASE
     VERIFIER -- Verify issued TitleVC  --> TRACE
 ```
-### with AnonCreds issuance to Orgbook
+### with AnonCreds issuance to traction
 ```mermaid
 flowchart RL
     IPSWEB[ipsweb]
-    ORGBOOK[orgbook]
+    TRACTION[traction]
     HOLDER[holder]
     TRACE[trace-api]
     VERIFIER[verifier]
     DATABASE[database]
     IPSWEB -- Issue Anoncreds-VC --> HOLDER
-    IPSWEB -- Issue Anoncreds-VC --> ORGBOOK
-    TRACE -- Query Anoncreds-VC --> ORGBOOK
-    TRACE -- Sign JSON-LD-VC  --> ORGBOOK
+    IPSWEB -- Issue Anoncreds-VC --> TRACTION
+    TRACE -- Query Anoncreds-VC --> TRACTION
+    TRACE -- Sign JSON-LD-VC  --> TRACTION
     TRACE -- Store JSON-LD-VC  --> DATABASE
     VERIFIER -- Verify issued JSON-LD-VC  --> TRACE
 ```
