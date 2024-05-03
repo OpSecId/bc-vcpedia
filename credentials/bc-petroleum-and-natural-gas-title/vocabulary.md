@@ -40,11 +40,11 @@ A number is used to uniquely identify a title, assigned based on administrative 
 
 ## originType
 
-This field specifies the type of title origin based on the PNG Act. Title types can include the following: 1. Lease (Part 6); 2. Permit (Part 5); 3. Drilling Licence (Part 5.1), and 4. Storage Reservoir Licence (Part 14.130). Each title origin has only one title origin type.
+This field specifies the type of title origin based on the PNG Act. Each title origin has only one title origin type.
 
 ## originNumber
 
-A number is used to uniquely identify a title, assigned based on administrative policy by the TRSB. The title origin number is associated with the Exploration Licence outlined in [Section 126, part 14.126 of the PNG Act](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#section126)
+A number is used to uniquely identify a title origin, assigned based on administrative policy by the TRSB. The title origin number is associated with the Exploration Licence outlined in [Section 126, part 14.126 of the PNG Act](https://www.bclaws.gov.bc.ca/civix/document/id/complete/statreg/96361_01#section126)
 
 ## titleHolders
 
@@ -60,7 +60,7 @@ A Title Holder will hold a percentage (%) interest in the title. Percent interes
 
 ## tracts
 
-A Tract is an area of land within a title defined by locations sharing identical rights. This attribute has all of the tract(s) information contained within a title. See Tracts Appendix below for a detailed description of the information included.
+A Tract is an area of land within a title defined by locations sharing identical rights. This attribute has all of the tract(s) information contained within a title.
 
 ## tractLocations
 
